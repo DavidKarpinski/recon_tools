@@ -1,5 +1,4 @@
 #!/usr/bin/perl
-# A post-exploitation tool to read the content of /etc/passwd file.
 
 use FileHandle;
 
