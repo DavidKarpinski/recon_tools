@@ -1,2 +1,2 @@
 # recon_tools
-A set of scripted reconnossaince tools .
+A set of scripted reconnossaince tools.
