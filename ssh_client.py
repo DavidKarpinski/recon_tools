@@ -1,3 +1,7 @@
+#/usr/bin/env python3
+
+# Just so nobody can say that there is no Python file here.
+
 import paramiko
 
 
