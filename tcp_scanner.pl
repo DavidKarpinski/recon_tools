@@ -20,7 +20,7 @@ foreach my $port (split /,/, $port_range) {
     Timeout => $timeout,
   );
   
-  if ($socket) [
+  if ($socket) {
     say "$port\topen";
     close($socket);
   }
