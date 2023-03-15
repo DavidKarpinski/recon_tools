@@ -18,7 +18,7 @@ if ($response->header('Server') =~ /mod_security/i) {
     say 'WAF detected: Apache mod_security';
 } elsif ($response->header('Server') =~ /cloudfront/i) {
     print 'WAF detected: Amazon CloudFront';
-} elsif ($response->header('Server') =~ /cloudflare/i) {
+} elsif ($response->header('Server') =~ /cloudflare/i || $response->header('CF-RAY')) {
     say 'WAF detected: Amazon Cloudflare';
 }
 
